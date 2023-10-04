@@ -12,7 +12,8 @@ public class Main {
         Gerente kevin = new Gerente("Kevin", 19, 300.0f, "liderazgo", Arrays.asList("Tecnicos Informaticos", "Soldadores"));
         kevin.describir_rol();
 
-        Asistente Can = new Asistente("Candel", 20, 200.0f));
+        Asistente Can = new Asistente("Candel", 20, 200.0f);
+        Can.describir_rol();
         
         
     }
