@@ -13,7 +13,7 @@ class Producto():
 
 class Electronico(Producto):
 
-    def __init__(nombre,precio,categoria,consumo):
+    def __init__(self,nombre,precio,categoria,consumo):
         super().__init__(nombre,precio,categoria)
         self.consumo = consumo
 
@@ -23,7 +23,7 @@ class Electronico(Producto):
 
 class Alimenticio(Producto):
 
-    def __init__(nombre,precio,categoria,calorias):
+    def __init__(self,nombre,precio,categoria,calorias):
         super().__init__(nombre,precio,categoria)
         self.calorias = calorias
 
@@ -33,7 +33,7 @@ class Alimenticio(Producto):
 
 class Vestimenta(Producto):
 
-    def __init__(nombre,precio,categoria,talla):
+    def __init__(self,nombre,precio,categoria,talla):
         super().__init__(nombre,precio,categoria)
         self.talla = talla
 

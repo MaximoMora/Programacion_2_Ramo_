@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "empleadosEmpresaJava.Main",
+      "projectName": "Programacion_2_Ramo__a13ac0a2"
+    },
+    {
+      "type": "java",
       "name": "GestionProducto",
       "request": "launch",
       "mainClass": "GestionProducto",
