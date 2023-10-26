@@ -39,3 +39,6 @@ class Vestimenta(Producto):
 
     def mostrar_detalle(self):
         print(f"Producto = {self.nombre} Precio = {self.precio} Categoria = {self.categoria} Talla = {self.talla}")
+
+if __name__ == "__main__":
+    print("hola")

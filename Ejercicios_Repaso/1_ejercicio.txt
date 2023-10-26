@@ -1,0 +1,60 @@
+
+
+"Un garaje tiene varios Vehiculos. Cada vehículo tiene un propietario y una matrícula."
+
+
+Encontrar los Sustantivos y Verbos de la oración.
+
+
+Sustantivos:
+    -garaje
+    -vehículo
+    -propietario
+    -matricula
+
+Verbos:
+    -estacionar
+    -retirar
+
+
+
+Identificar clases
+1. Un banco permite a los clientes abrir y cerrar cuentas, así como depositar y retirar dinero.
+
+clases: banco, cliente, cuentas
+
+2. Un restaurante sirve diferentes platos y tiene muchos clientes que hacen reservaciones.
+
+clases: restaurante, cliente, reservacion
+
+3. Un hospital tiene varios médicos que atienden a pacientes y prescriben medicamentos.
+
+clases hospital, medicos, paciente, medicanamente
+
+4. Una biblioteca alberga libros que los lectores pueden tomar prestados o devolver.
+
+clases biblioteca, libros, lector, 
+
+5. Una tienda vende productos y ofrece descuentos a miembros leales.
+
+clases tienda, producto, miembros
+
+6. Una escuela tiene profesores que imparten clases a estudiantes y asignan calificaciones.
+
+clases escuela, profesor, clases, estudiante, calificaciones
+
+7. Un zoológico alberga animales y permite a los visitantes ver espectáculos en horariosespecíficos.
+
+clases zoológico, animales, visitantes, espectáculos
+
+8. Una compañía aérea opera vuelos y permite a los pasajeros reservar y cancelar boletos.
+
+clases compañía_area, vuelos, reservar, pasajeros
+
+9. Un teatro presenta obras y vende entradas a espectadores.
+
+clases teatro, obras, entradas, espectadores,
+
+10. Un parque tiene áreas de juego y ofrece paseos a los niños.
+
+clases parque, aéreas, paseos

@@ -1,0 +1,15 @@
+
+
+“Se necesita un programa que modele un aeropuerto
+pensando en todos los procesos que ocurren,desde que
+un pasajero ingresa al aeropuerto hasta que aborda
+su vuelo. Esto incluye salas de espera,puertas
+de embarque, seguridad, equipaje, aerolíneas, pilotos
+,tripulación de cabina y tiendas dentro del
+aeropuerto.”
+
+Sustantivos:
+    -aeropuerto
+    -
+
+Verbos

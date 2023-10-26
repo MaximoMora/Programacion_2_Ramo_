@@ -51,8 +51,7 @@ class Ingeniero  : public Empleado {
 
     Ingeniero (std::string _nombre, int _edad, int _salario,std::string _tecnicatura)
     : Empleado(_nombre,_edad,_salario), habilidades() {
-        _tecnicatura = tecnicatura;
-
+        tecnicatura = _tecnicatura;
     }
 
     void describir_rol() {
@@ -101,6 +100,8 @@ int main() {
     Can.Agregar_tareas("Administrar");
     Can.describir_rol();
 
+    Ingeniero Vicente("Vicente",19,3000,"Biologia Marina");
+    Vicente.describir_rol();
 
 
 }

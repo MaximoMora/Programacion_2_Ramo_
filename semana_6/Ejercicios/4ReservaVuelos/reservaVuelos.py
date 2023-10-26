@@ -21,7 +21,6 @@ class ReservaEconómica(Reserva):
     def AgregarEquipaje(self,nuevoEquipaje):
         self.espacio_limitado.append(nuevoEquipaje) 
         
-    
         
 class ReservaBusiness(Reserva):
     def __init__(self, nombre_del_pasajero, número_de_vuelo, fecha,comida_gourmet):
@@ -44,7 +43,6 @@ class ReservaBusiness(Reserva):
         self.entretenimiento.append(nuevoEntretenimiento)
         
         
-
 class ReservaPrimeraClase(Reserva):
     def __init__(self, nombre_del_pasajero,número_de_vuelo, fecha,comida_gourmet_exclusiva,espacio_habitacion,privacidad,sala_vip):
         super().__init__(nombre_del_pasajero, número_de_vuelo, fecha)
@@ -56,7 +54,7 @@ class ReservaPrimeraClase(Reserva):
         self.equipaje_amplio = []
         
     def Mostrar_detalle(self):
-        print(f"Reserva Primera Clase:\nNombre: {self.nombre_del_pasajero}\nNumero de vuelo: {self.número_de_vuelo}\nFecha: {self.fecha}\nTipo de comida: {self.comida_gourmet_exclusiva}\nTipo de espacio: {self.espacio_habitacion}\nTipo de Entrenimiento: {self.entretenimiento}\nPrivacidad:{self.privacidad}\nSala Vip:{self.sala_vip}")
+        print(f"Reserva Primera Clase:\nNombre: {self.nombre_del_pasajero}\nNumero de vuelo: {self.número_de_vuelo}\nFecha: {self.fecha}\nTipo de comida: {self.comida_gourmet_exclusiva}\nTipo de espacio: {self.espacio_habitacion}\nTipo de Entrenimiento: {self.entretenimiento_premiun}\nPrivacidad:{self.privacidad}\nSala Vip:{self.sala_vip}")
 
     def ConductorPrivado(self):
         print(f"El pasajero: {self.nombre_del_pasajero} Sera llevado al aeropuert por un conductor privado")
@@ -69,4 +67,9 @@ class ReservaPrimeraClase(Reserva):
         
     def SetSalaVip(self,nuevaSala):
         self.sala_vip = nuevaSala
-        
+
+
+if __name__ == "__main__":
+    kevin = ReservaPrimeraClase("Kevin","CL_45","08-12-2023","Papa sola","Habitacion 1m * 1m","extrema","Temuco_VIP_23")
+    kevin.AgregarEntrenimiento("Anime")
+    kevin.Mostrar_detalle()

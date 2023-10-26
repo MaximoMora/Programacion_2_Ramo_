@@ -63,8 +63,8 @@ class Alimenticio : public Producto {
 
 class Vestimenta : public Producto {
     public:
-        int _talla;
-        Vestimenta(std::string nombre, int precio, std::string categoria, int talla) : Producto(nombre,precio,categoria) {
+        std::string _talla;
+        Vestimenta(std::string nombre, int precio, std::string categoria, std::string talla) : Producto(nombre,precio,categoria) {
 
             _talla = talla;
 
@@ -78,6 +78,9 @@ class Vestimenta : public Producto {
 };
 
 int main() {
+
+    Vestimenta cristian("Cristian",3000,"Polera","L");
+    cristian.mostrar_detalle();
 
     
 

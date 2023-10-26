@@ -1,6 +1,3 @@
-
-
-
 list = [4,7,3,5,8,1,2]
 
 def merge_sort(list):
@@ -15,7 +12,6 @@ def merge_sort(list):
 
     return merge(sorted_left,sorted_right)
 
-
 def merge(left_list,right_list):
     sorted_list = []
     while len(left_list) > 0 and len(right_list) > 0:
@@ -27,8 +23,7 @@ def merge(left_list,right_list):
         else:
             sorted_list.append(left_list[0])
             left_list.pop(0)
-            
-            
+                      
     print(sorted_list)
         
 merge_sort(list)
